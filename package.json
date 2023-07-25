@@ -1,0 +1,24 @@
+{
+  "name": "issuetracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chanchal tyagi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "flash": "^1.1.0",
+    "gitignore": "^0.7.0",
+    "layouts": "^3.0.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
