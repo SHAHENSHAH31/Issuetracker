@@ -8,7 +8,7 @@ mongoose.set('strictQuery',false);
 // );
 
 
-mongoose.connect('mongodb+srv://tyagichanchal407:Shahenshah@cluster0.vmyxmud.mongodb.net/Issue_tracker?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://tyagichanchal407:Shahenshah@cluster0.vmyxmud.mongodb.net/Issue_tracker2?retryWrites=true&w=majority')
 .then(
 () => {console.log("Database connected successfully")},
 (err) => {console.log("error occuring while database connecting",err)}
